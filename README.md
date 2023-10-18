@@ -32,8 +32,7 @@ This Project was written in Python (VS Code using Jupyter Notebooks). A range of
 -Seaborn
 -Scikit-learn
 
-Please refer to the "requirements.txt" file for a full list of all libraries as well as the exact version of each of these packages that is used throughout this project.
-Use the command: pip install -r requirements.txt to directly installed all the required packages.
+Please refer to the "requirements.txt" file for a full list of all libraries used throughout this project.
 
 ## USAGE
 
