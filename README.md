@@ -19,7 +19,8 @@ The final Jupyter Notebook shows the workflow for developing a model that includ
 
 ## Skills Demonstrated in each Jupyter Notebook
 ---
-### EDA Notebook
+
+## EDA Notebook
 - Creating and uploading data to a SQLite Database.
 - Querying a SQLite Database.
 - Pandas DataFrame Manipulation (Feature Engineering, .apply/map function).
