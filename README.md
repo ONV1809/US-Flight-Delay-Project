@@ -64,7 +64,7 @@ This Project was written in Python (VS Code using Jupyter Notebooks). A range of
 -Seaborn
 -Scikit-learn
 
-Please refer to the "requirements.txt" file for a full list of all libraries used throughout this project.
+Please refer to the "requirements-flight.txt" file for a full list of all libraries used throughout this project.
 
 ## USAGE
 ---
