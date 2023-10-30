@@ -53,6 +53,7 @@ The final Jupyter Notebook shows the workflow for developing a model that includ
 - In my project, I worked only with flights that were not diverted or cancelled. The diverted_cancelled.csv allows others to take on a complete project based around whether a flight was diverted or canceled.
 - airports, runways, and carriers are data sources that I merged to the original data source in order to extract new insights
 - pre-processed flight delay data x5000.csv is a file with data (5000 entries) pre-processed, in case you cannot train models on your machine, for whatever reason.
+- Pickled Files containing the various models I developed can be found in the 'Models' folder.
 
 ## DEPENDENCIES
 ---
