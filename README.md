@@ -17,18 +17,44 @@ The main focus of this project was to predict the arrival delay of domestic flig
 
 The final Jupyter Notebook shows the workflow for developing a model that included this 'future information'.Departure Delay was referred to as future information as it is impossible to know how much a plane's departure has been delayed until it has actually taken off from the airport runway. This model would be of use to passengers/families of passengers/businesses who are waiting for a delayed flight and would like to more accurately predict the landing time, so that adjustments to travel, collection time or itineraries could be made.
 
-## Skills Exemplified in this project
+## Skills Demonstrated in each Jupyter Notebook
 ---
-- 
+### EDA Notebook
+- Creating and uploading data to a SQLite Database.
+- Querying a SQLite Database.
+- Pandas DataFrame Manipulation (Feature Engineering, .apply/map function).
+- Merging data from external data sources (inner joins).
+- Working with datetime data types.
+- Defining custom functions.
+- Dealing with missing values.
+- Machine Learning Pre-Processing
+- Data visualisations for insights.
+- Using visualisations to derive Machine Learning insights.
+- Conducting Exploratory Data Analysis.
+  
+## Machine Learning Notebooks 
+- Further Feature Engineering.
+- Feature Selection for modeling.
+- Splitting Data into train and test splits.
+- Dealing with skewed variables.
+- Dealing with uneven scales within variables.
+- Creating Dummy variables for categorical variables.
+- Training Classification models.
+- Testing  variety of models on test data.
+- Assessing models with Accuracy, Precision, Recall, and F1-Score.
+- Tuning model via hyper-parameter tuning in GridSearchCV.
+- Conducting Feature importance with Random Forests.
+
 
 ## Other files in the repo
+---
 - Within the repo, you can find files such as "100000flights", which is a subset of 100000 flights if you would like to work with a subset of data.
 - In my project, I worked only with flights that were not diverted or cancelled. The diverted_cancelled.csv allows others to take on a complete project based around whether a flight was diverted or canceled.
 - airports, runways, and carriers are data sources that I merged to the original data source in order to extract new insights
 - pre-processed flight delay data x5000.csv is a file with data (5000 entries) pre-processed, in case you cannot train models on your machine, for whatever reason.
 
 ## DEPENDENCIES
-
+---
 This Project was written in Python (VS Code using Jupyter Notebooks). A range of libraries were used throughout the development of this project. These included:
 -Numpy
 -Pandas
